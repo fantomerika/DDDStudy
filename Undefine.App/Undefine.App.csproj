@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="4.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Undefine.Domian\Undefine.Domain.csproj" />
+    <ProjectReference Include="..\Undefine.DtoModel\Undefine.DtoModel.csproj" />
+    <ProjectReference Include="..\Undefine.Infrastructure\Undefine.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
